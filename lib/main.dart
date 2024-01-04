@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_blog/ui/pages/date/date_range_picker.dart';
 import 'package:flutter_blog/ui/pages/home/home_main.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HomeMain(),
+      home: DateRangePicker(),
     );
   }
 }

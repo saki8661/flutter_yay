@@ -24,7 +24,7 @@ class HomeMain extends StatelessWidget {
       body: Container(
         color: kBackgroundColor,
         child: Padding(
-          padding: const EdgeInsets.symmetric(horizontal: gapLarge),
+          padding: const EdgeInsets.symmetric(horizontal: 16.0),
           child: ListView(
             children: [
               Container(
